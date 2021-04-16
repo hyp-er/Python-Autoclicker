@@ -1,2 +1,5 @@
-# Python-Autoclicker
-This autoclicker is made entirely from python. Using Pynput, I added a "click and unclick" loop just for anyone who (for whatever reason) needs it. I will be adding a right-click feature soon, and will also maybe add a "while True:" Loop so that you dont have to start restart the code repeatedly. 
+# Python Autoclicker
+This autoclicker is made entirely from python.
+
+# How it Works:
+By using a fun python package called "pynput", you can take control of the keyboard, mouse and even the mouse position! By looping a "click" and "unclick" function, you can make a small auto clicker, that you can use for video games, automated typing, running tasks and much more! 
