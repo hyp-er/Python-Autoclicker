@@ -5,8 +5,9 @@ from pynput.mouse import Button, Controller
 mouse = Controller()
 
 for x in range(50):
-  time.sleep(0.1)
-  mouse.press(Button.left)
-  mouse.release(Button.left)
+#clicks at 10.00 CPS (clicks per second)
+    time.sleep(0.01)
+    mouse.press(Button.left)
+    mouse.release(Button.left)
 
-print('the autoclicker has run succesfully!')
+print('the autoclicker has run successfully!')
